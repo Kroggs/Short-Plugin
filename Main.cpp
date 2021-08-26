@@ -169,10 +169,6 @@ exit:
         *HbgHacks_Folder += new MenuEntry("Infinite gunner pouch ammos" + Stable, InfiniteBombsDrop, "Infinite gunner pouch ammos.");
 
         *HbgHacks_Folder += new MenuEntry("RapidFire" + Stable, RapidFire, RapidFireSettings, "Allows you to RapidFire.");
-        *HbgHacks_Folder += EntryWithHotkey(new MenuEntry("RapidFire" + Stable, RapidFire, RapidFireSettings, "Allows you to RapidFire."),
-         {
-                Hotkey(Key::R, "Shot")
-         });
     }
 
     int main()
